@@ -175,6 +175,30 @@ body {
   color: #fff;
 }
 
+.btn--fill:link.btn-bo,
+.btn--fill:visited.btn-bo {
+  background-color: #0e1b3a;
+  color: #fff;
+}
+
+.btn--fill:hover.btn-bo,
+.btn--fill:active.btn-bo {
+  background-color: #fff;
+  color: #333;
+  box-shadow: inset 0 0 0 2px #0e1b3a;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  box-shadow: inset 0 0 0 2px #9c9c9e;
+}
+
+.btn--outline:hover.btn-bo,
+.btn--outline:active.btn-bo {
+  background-color: #0e1b3a;
+  color: #fff;
+}
+
 .color-blue {
   background-color: #3d9de1;
 }
